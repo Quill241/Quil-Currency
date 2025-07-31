@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <img src="/images/money converter.jpeg" alt="money">
+        <header>QUIL'S CURRENCY EXCHANGE</header>
+
+
+            <div class="Amount">
+                <p>Enter Convert Rate:</p>
+                <input type="text"  id="num1" value="1">
+            </div>
+
+            <div class="icon"> <i class="fa fa-exchange"></i></div>
+
+            <div class="Amount">
+                <p>Enter Your Amount:</p>
+                <input type="text"  id="num2" value="1">
+            </div>
+
+
+                
+             <button class="btn" onclick="naira()">Naira</button>   <button class="btn" onclick="Yen()">Yen</button>  <button class="btn" onclick="KRW()">KRW</button>
+
+
+             <div id="output">
+
+             </div>
+
+                    
+
+        <div class="footer">
+            
+            <p>&copy:Happiness Alade</p>
+        </div> 
+
+        <button class="btn" onclick="darkMode()">Dark MODE</button>
+        <button class="btn" onclick="lightMode()">Light MODE</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
