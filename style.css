@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 10px;
+    background-image: linear-gradient(to right, green, white);
+}
+
+.wrapper img{
+    width: 150px;
+    align-items: center;
+}
+
+/* ::selection{
+    color: white;
+    background-color: rgb(255, 64, 0);
+} */
+
+
+.wrapper{
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 7px;
+    box-shadow: 7px 7px 20px;
+}
+
+.wrapper header{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Amount p{
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.Amount input{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.icon{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(80, 197, 80);
+}
+
+.btn{
+
+    margin-top: 30px;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(83, 172, 83, 0.629);
+}
+
+.btn:hover{
+    background-color: transparent;
+    transition: 1s ease;
+}
+
+#output{
+    background-color: rgb(77, 130, 77);
+    margin-top: 15px;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+    color: white;
+}
+
+.footer{
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+@media(max-width: 700px){
+
+    .wrapper{
+    /* background-size: 100px; */
+    width: 400px;
+    }
+
+
+}
